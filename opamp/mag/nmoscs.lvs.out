@@ -1,0 +1,42 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_F3PBJA in circuit nmoscs (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PLT in circuit nmoscs (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TCR5KT in circuit nmoscs (0)(1 instance)
+
+Class nmoscs (0):  Merged 4 parallel devices.
+Subcircuit summary:
+Circuit 1: nmoscs                          |Circuit 2: nmoscs                          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (8->4)             |sky130_fd_pr__nfet_01v8 (8->4)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nmoscs                          |Circuit 2: nmoscs                          
+-------------------------------------------|-------------------------------------------
+D4                                         |D4                                         
+RS                                         |RS                                         
+D3                                         |D3                                         
+GND                                        |GND                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes nmoscs and nmoscs are equivalent.
+
+Final result: Circuits match uniquely.
+.

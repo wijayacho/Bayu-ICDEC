@@ -1,0 +1,52 @@
+Netgen 1.5.282 compiled on Mon Oct 14 14:04:52 WIB 2024
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/b_hidayat/opamp/mag/opampfinal.ext.spc
+Call to undefined subcircuit sky130_fd_pr__nfet_01v8
+Creating placeholder cell definition.
+Call to undefined subcircuit sky130_fd_pr__pfet_01v8
+Creating placeholder cell definition.
+Reading netlist file /home/b_hidayat/opamp/mag/opampfinal.sch.spc
+
+Reading setup file /home/b_hidayat/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+Model sky130_fd_pr__nfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__nfet_01v8
+No property sa found for device sky130_fd_pr__nfet_01v8
+No property sb found for device sky130_fd_pr__nfet_01v8
+No property sd found for device sky130_fd_pr__nfet_01v8
+No property nf found for device sky130_fd_pr__nfet_01v8
+No property nrd found for device sky130_fd_pr__nfet_01v8
+No property nrs found for device sky130_fd_pr__nfet_01v8
+No property area found for device sky130_fd_pr__nfet_01v8
+No property perim found for device sky130_fd_pr__nfet_01v8
+No property topography found for device sky130_fd_pr__nfet_01v8
+Model sky130_fd_pr__pfet_01v8 pin 1 == 3
+No property mult found for device sky130_fd_pr__pfet_01v8
+No property sa found for device sky130_fd_pr__pfet_01v8
+No property sb found for device sky130_fd_pr__pfet_01v8
+No property sd found for device sky130_fd_pr__pfet_01v8
+No property nf found for device sky130_fd_pr__pfet_01v8
+No property nrd found for device sky130_fd_pr__pfet_01v8
+No property nrs found for device sky130_fd_pr__pfet_01v8
+No property area found for device sky130_fd_pr__pfet_01v8
+No property perim found for device sky130_fd_pr__pfet_01v8
+No property topography found for device sky130_fd_pr__pfet_01v8
+Comparison output logged to file /home/b_hidayat/opamp/mag/opampfinal.lvs.out
+Logging to file "/home/b_hidayat/opamp/mag/opampfinal.lvs.out" enabled
+
+Contents of circuit 1:  Circuit: 'opampfinal'
+Circuit opampfinal contains 48 device instances.
+  Class: sky130_fd_pr__nfet_01v8 instances:  20
+  Class: sky130_fd_pr__pfet_01v8 instances:  28
+Circuit contains 16 nets.
+Contents of circuit 2:  Circuit: 'opampfinal'
+Circuit opampfinal contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit opampfinal contains no devices.
+
+Final result: 
+Verify:  cell /home/b_hidayat/opamp/mag/opampfinal.sch.spc has no elements and/or nodes.  Not checked.
+Logging to file "/home/b_hidayat/opamp/mag/opampfinal.lvs.out" disabled
+LVS Done.

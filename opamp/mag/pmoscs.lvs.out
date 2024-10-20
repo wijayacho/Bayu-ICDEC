@@ -1,0 +1,44 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2ZH9AN in circuit opamp1 (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_SDE6B7 in circuit opamp1 (0)(4 instances)
+
+Class opamp1 (0):  Merged 9 parallel devices.
+Class opamp1 (1):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: opamp1                          |Circuit 2: opamp1                          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (16->7)            |sky130_fd_pr__pfet_01v8 (16->7)            
+Number of devices: 7                       |Number of devices: 7                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: opamp1                          |Circuit 2: opamp1                          
+-------------------------------------------|-------------------------------------------
+d5                                         |d5                                         
+d1                                         |d1                                         
+d2                                         |d2                                         
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes opamp1 and opamp1 are equivalent.
+
+Final result: Circuits match uniquely.
+.

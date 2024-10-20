@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729246705
+use nmoscs2  nmoscs2_0
+timestamp 1729241230
+transform 1 0 2508 0 1 507
+box -176 -589 1266 658
+use nmoscs  nmoscs_0
+timestamp 1729245018
+transform 1 0 2750 0 1 -1164
+box -340 -626 1022 692
+use pmoscs  pmoscs_0
+timestamp 1729243200
+transform 1 0 178 0 1 106
+box -178 -106 822 2824
+use pmosdif  pmosdif_0
+timestamp 1729237126
+transform -1 0 2910 0 -1 2119
+box -342 -834 1910 724
+<< end >>

@@ -1,0 +1,26 @@
+Flattening unmatched subcell nmoscs2 in circuit opampfinal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_U7AA6P in circuit opampfinal (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PLT in circuit opampfinal (0)(4 instances)
+Flattening unmatched subcell pmoscs in circuit opampfinal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2ZH9AN in circuit opampfinal (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_SDE6B7 in circuit opampfinal (0)(4 instances)
+Flattening unmatched subcell pmosdif in circuit opampfinal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_S56997 in circuit opampfinal (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_L4T9AL in circuit opampfinal (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_M4T9AN in circuit opampfinal (0)(2 instances)
+Flattening unmatched subcell nmoscs in circuit opampfinal (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_F3PBJA in circuit opampfinal (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PLT in circuit opampfinal (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TCR5KT in circuit opampfinal (0)(1 instance)
+
+Class opampfinal (0):  Merged 29 parallel devices.
+
+Subcircuit pins:
+Circuit 1: opampfinal                      |Circuit 2: opampfinal                      
+-------------------------------------------|-------------------------------------------
+(no pins)                                  |(no pins)                                  
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes opampfinal and opampfinal are equivalent.
+
+Final result: Verify:  cell /home/b_hidayat/opamp/mag/opampfinal.sch.spc has no elements and/or nodes.  Not checked.
